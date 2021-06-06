@@ -231,12 +231,13 @@ BO_ 96 STEER2: 8 XXX
  SG_ NEW_SIGNAL_5 : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ CTR : 55|4@0+ (1,0) [0|15] "" XXX
  SG_ CHKSUM : 63|8@0+ (1,0) [0|255] "" XXX
- SG_ STEER__ : 7|16@0+ (1,0) [0|255] "" XXX
  SG_ TURN_ON : 34|1@0+ (1,0) [0|1] "" XXX
  SG_ TURN_OFF : 32|1@0+ (1,0) [0|1] "" XXX
  SG_ ENGINE_ON : 33|1@0+ (1,0) [0|1] "" XXX
  SG_ CAR_MOVING_FORWARD : 21|1@0+ (1,0) [0|15] "" XXX
  SG_ CAR_REVERSING : 22|1@0+ (1,0) [0|1] "" XXX
+ SG_ ENGINE_OFF : 23|1@0+ (1,0) [0|1] "" XXX
+ SG_ STEER__ : 7|16@0+ (1,0) [0|65535] "" XXX
  SG_ SPEED : 18|16@0+ (0.01,-100) [0|65535] "KPH" XXX
 
 BO_ 1209 KEEP_ALIVE_1: 8 XXX
