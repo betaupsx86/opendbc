@@ -50,7 +50,7 @@ BO_ 256 CAM_Start: 8 XXX
 BO_ 358 CAM_End: 8 XXX
  SG_ NEW_SIGNAL_2 : 61|2@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_3 : 59|4@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_1 : 7|32@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 31|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 1216 CAM_69: 8 XXX
  SG_ NEW_SIGNAL_1 : 56|4@1+ (1,0) [0|15] "" XXX
@@ -331,9 +331,9 @@ BO_ 264 NEW_MSG_2: 8 XXX
 
 BO_ 22 CRZ_CTRL_BTNS: 8 XXX
  SG_ CRZ_CTRL_BTN_PRESSED : 48|1@0+ (1,0) [0|1] "" XXX
- SG_ ENGINE_OFF : 45|1@0+ (1,0) [0|15] "" XXX
- SG_ ENGINE_ON : 46|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 51|3@0+ (1,0) [0|7] "" XXX
+ SG_ SIGNAL : 45|1@0+ (1,0) [0|15] "" XXX
+ SG_ NOT_SIGNAL : 46|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 306 CAM_LANE_3_MAYBE: 8 XXX
  SG_ NEW_SIGNAL_1 : 19|10@0+ (1,0) [0|63] "" XXX
@@ -349,6 +349,15 @@ BO_ 307 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_5 : 61|6@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_3 : 25|10@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_4 : 7|10@0+ (1,0) [0|1] "" XXX
+
+BO_ 320 NEW_MSG_4: 8 XXX
+ SG_ NEW_SIGNAL_2 : 27|7@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_1 : 35|8@0- (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 43|6@0+ (1,0) [0|1] "" XXX
+
+BO_ 321 NEW_MSG_11: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 37|6@0+ (1,0) [0|1] "" XXX
 
 
 
