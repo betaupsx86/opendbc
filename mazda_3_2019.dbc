@@ -37,15 +37,14 @@ BU_: XXX
 
 
 BO_ 256 CAM_Start: 8 XXX
- SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 20|12@0+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_5 : 24|13@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_7 : 56|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_8 : 61|2@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_10 : 43|12@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_6 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_10 : 44|12@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_2 : 63|2@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_4 : 23|3@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 0|12@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 24|12@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 20|12@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_6 : 4|1@0+ (1,0) [0|255] "" XXX
 
 BO_ 358 CAM_End: 8 XXX
  SG_ NEW_SIGNAL_2 : 61|2@0+ (1,0) [0|3] "" XXX
